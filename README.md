@@ -16,7 +16,7 @@ body {
 </style>
 ```
 
-You can access non-swap version from `https://cdn.matsurihi.me/line-seed-jp-1.0.0/LINESeedJP.css`.
+You can access non-swap version from `https://cdn.matsurihi.me/line-seed-jp-1.0.1/LINESeedJP.css`.
 
 ## How to make
 
