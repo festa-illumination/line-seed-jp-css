@@ -6,8 +6,8 @@ for f in otf/*.otf; do
   I=0
   while read LINE; do
     MD5=$(echo 'こんなにドキドキするなんてまぎれもなくあなたのせいなんです' $BASENAME $I | md5sum | cut -d ' ' -f 1)
-    pyftsubset $f --unicodes="${LINE}" --output-file=dist/${BASENAME}/woff/${MD5}.woff --flavor=woff --with-zopfli
-    pyftsubset $f --unicodes="${LINE}" --output-file=dist/${BASENAME}/woff2/${MD5}.woff2 --flavor=woff2
+    pyftsubset $f --unicodes="${LINE}" --layout-features+=palt --output-file=dist/${BASENAME}/woff/${MD5}.woff --flavor=woff --with-zopfli
+    pyftsubset $f --unicodes="${LINE}" --layout-features+=palt --output-file=dist/${BASENAME}/woff2/${MD5}.woff2 --flavor=woff2
     I=$(($I + 1))
   done < range/${BASENAME}.txt
 done

@@ -7,7 +7,7 @@ To reduce data to download and to improve performance, the generated CSS uses fo
 ## Usage
 
 ```html
-<link href="https://cdn.matsurihi.me/line-seed-jp-1.0.0/LINESeedJP_swap.css" rel="stylesheet">
+<link href="https://cdn.matsurihi.me/line-seed-jp-1.0.1/LINESeedJP_swap.css" rel="stylesheet">
 
 <style>
 body {
