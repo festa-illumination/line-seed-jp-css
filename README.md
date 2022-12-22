@@ -22,7 +22,7 @@ You can access non-swap version from `https://cdn.matsurihi.me/line-seed-jp-1.0.
 
 Run scripts from 01 to 06 by this order.
 
-Requirements: fonttools, Ruby, nokogiri
+Requirements: fonttools, py-zopfli, Ruby, nokogiri
 
 ## License
 
