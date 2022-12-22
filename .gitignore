@@ -1,4 +1,9 @@
 .DS_Store
+__MACOSX/
+
+LINE_Seed_JP.zip
+LINE_Seed_JP/
+
 noto_sans.css
 range_list.txt
 cmap/
